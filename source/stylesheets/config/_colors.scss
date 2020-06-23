@@ -10,28 +10,18 @@ $green: #32B796;
 
 $gray: #000000;
 $light-gray: #F4F4F4;
-$grey: #F3F3F3;
-$darker-grey: #e5e5e5;
-$purple: #7d2dbf;
-$purple-dark:#351054;
+$yellow2: #FDE9A3;
 
 $gray-gradient: linear-gradient(165deg,
-  rgba(192,192,192,0.9) 0%,
-  rgba(128,128,128,1) 100%);
+  rgba(253,233,163,0.9) 0%,
+  rgba(253,215,135,1) 100%);
 
 $sky-gradient: linear-gradient(165deg,
   rgba(200,200,255,0.9) 0%,
   rgba(100,100,100,1) 100%);
 
-$purple-gradient : linear-gradient(165deg,
-    rgba($purple, 0.9) 0%,
-    rgba($white, 0.5) 70%);
-
-$purple-gradient2 : linear-gradient(165deg,
-    rgba($purple, 1) 0%,
-    rgba($purple-dark, 1) 70%);
-
 $menu-gradient: linear-gradient(180deg,
     rgba($white, 0.8) 0%,
-    rgba($purple, 0.9) 20%,
+    rgba($yellow2, 0.9) 20%,
     rgba($orange, 1) 80%);
+

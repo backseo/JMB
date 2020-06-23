@@ -42,7 +42,7 @@
   display: none;
   position: absolute;
   text-align: center;
-  background: $sky-gradient;
+  background: $yellow2;
   border-radius: 3px;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   padding: 12px 6px;
@@ -54,17 +54,18 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+  width: 150px;
 }
 
 .dropdown-content a {
-  color: $white;
+  color: black;
   text-decoration: none;
   padding: 8px 8px;
 }
 
 .dropdown-content a:hover {
   text-decoration: none;
-  color: black;
+  color: blue;
 }
 
 .hightlight{
