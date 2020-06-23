@@ -11,9 +11,12 @@
   border-radius: 50%;
 }
 
+button {
+  margin: 15px 0px 15px 0px;
+}
+
 @media only screen  and ( max-width: 768px){
   .banner h1, h2 {
     transform: scale(0.7);
-    color: white;
   }
 }
