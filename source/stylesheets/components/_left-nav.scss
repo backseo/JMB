@@ -1,6 +1,7 @@
 #left-nav {
   position: relative;
   top: 0px;
+  left: -300px;
   height: auto;
   width: 350px;
   background: #333;
@@ -8,5 +9,10 @@
   padding: 10px 0px 5px 0px;
   margin: 5px;
   border-radius: 4px;
+  transition: all ease-in-out 300ms;
 }
 
+#left-nav:hover {
+  left: 0;
+  transition: all ease-in-out 300ms;
+}
