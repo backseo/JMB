@@ -16,10 +16,15 @@ $font-size: 1rem;
 // }
 // $my-font: "Font Name";
 
-html body {
-background: white;
-margin: 0;
-box-sizing: border-box;
+html {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/fond.png);
+  background-size: contain;
+  background-repeat: repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {

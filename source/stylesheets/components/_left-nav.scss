@@ -10,9 +10,16 @@
   margin: 5px;
   border-radius: 4px;
   transition: all ease-in-out 300ms;
+  display: flex;
 }
 
 #left-nav:hover {
   left: 0;
   transition: all ease-in-out 300ms;
+}
+
+#ico-menu {
+  position: absolute;
+  top: 80px;
+  right: 20px;
 }
