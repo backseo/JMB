@@ -16,15 +16,10 @@ $font-size: 1rem;
 // }
 // $my-font: "Font Name";
 
-html {
+html body {
   margin: 0;
   box-sizing: border-box;
-}
-
-body {
-  background-image: url(../images/fond.png);
-  background-size: contain;
-  background-repeat: repeat;
+  background-color: #FDE9A3;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,10 +28,24 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: $body-font;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+.aered p {
+  margin: 15px 0px 15px 0px;
+  padding: 0px 5px 0px 5px;
+}
+.aered p:first-child {
+  text-indent: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url(../images/none.png);
+  }
+}

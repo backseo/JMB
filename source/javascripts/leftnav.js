@@ -14,7 +14,7 @@ $(document).ready(function() {
         objNav.style.zIndex = 999;
       }
       if(posCurseur<101){
-        objNav.style.position = "relative";
+        objNav.style.position = "absolute";
       }
     }
     // evenement
