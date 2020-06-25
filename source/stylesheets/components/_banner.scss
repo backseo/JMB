@@ -1,5 +1,5 @@
 .banner {
-  background-image: url(../images/fond1.jpg);
+  background-image: url(../images/fond35.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 76vh;
@@ -16,6 +16,9 @@ button {
 }
 
 @media only screen  and ( max-width: 768px){
+  .banner {
+    height: 80vh;
+  }
   .banner h1, h2 {
     transform: scale(0.7);
   }

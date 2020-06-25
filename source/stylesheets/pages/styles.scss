@@ -1,3 +1,4 @@
+// couleurs de texte par class
 .info {
   color: $info;
 }
@@ -6,6 +7,27 @@
   color: $red;
 }
 
-.autre {
-  color: $autre;
+.figue {
+  color: $figue;
+}
+
+// general style
+
+.mycontainer {
+  background-color: #fff;
+  border-radius: 4px;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+i {
+  padding-right: 10px;
+}
+
+// media query
+
+@media only screen and (max-width: 768px) {
+  .mycontainer p {
+    font-size: 1.5rem;
+  }
 }
