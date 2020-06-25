@@ -10,7 +10,7 @@ $(document).ready(function() {
       // je teste la différence de distance entre le scroll et nav
       if(memoPositionNav-posCurseur<1){
         objNav.style.position = "fixed";
-        objNav.style.top = 0;
+        objNav.style.top = 90;
         objNav.style.zIndex = 999;
       }
       if(posCurseur<101){

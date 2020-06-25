@@ -1,11 +1,11 @@
 // Import Google fonts
 
-@import url('https://fonts.googleapis.com/css2?family=Vidaloka&family=Candara&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Vidaloka&display=swap');
 
 
 // Define fonts for body and headers
 $headers-font: "Vidaloka", "sans-serif";
-$body-font: "Candara", "sans-serif";
+$body-font: "Forum", "cursive";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -16,6 +16,10 @@ $body-font: "Candara", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 html body {
   margin: 0;
@@ -29,20 +33,16 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: $body-font;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.aered {
-  margin: 15px 0px 15px 0px;
-  padding: 10px 5px 0px 5px;
-}
 p:first-child {
   text-indent: 20px;
 }
+
+
+
+
 
 
 
