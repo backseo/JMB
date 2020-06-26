@@ -1,33 +1,42 @@
-.foot-up {
-  height: 167px;
-  width: 100%;
+.myfooter {
+  position: relative;
+  padding: 10px 10px;
+  background-color: black;
+  color: $yellow2;
 }
 
-.myfooter {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 50px;
-  background-color: black;
+.mentions {
+  text-align: center;
 }
 
 .list-menu {
-  color: white;
-  margin: 8px 2px 8px 2px;
+  width: auto;
+  height: auto;
+  margin: 4px 2px 4px 2px;
+  padding: 4px 0px;
+  border: 1px gray solid;
+}
+
+.list-menu p {
+  font-size: 1.3rem;
+}
+
+.list-menu i {
+  padding-right: 10px;
+  color: $yellow2;
 }
 
 .list-menu a {
-  color: white;
+  color: $yellow2;
   opacity: 0.5;
   padding: 0px 10px;
 }
 .list-menu a:hover {
-  color: red;
+  color: white;
   opacity: 1;
+  text-decoration: none;
 }
 
-.centree {
-  margin: 0 auto;
-}
+
 
 

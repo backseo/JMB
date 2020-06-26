@@ -16,12 +16,11 @@
   margin: 20px auto;
 }
 
-
 .mycontainer {
   background-color: #fff;
   border-radius: 4px;
   padding: 10px 10px;
-  margin-bottom: 20px;
+  margin: 15px 4px;
 }
 
 .formcontainer {
@@ -34,6 +33,7 @@
 i {
   padding-right: 10px;
 }
+
 label {
   font-family: $body-font;
   color: $figue;
@@ -60,15 +60,16 @@ strong {
 @media only screen and (max-width: 768px) {
   .mycontainer p {
     font-size: 1.5rem;
+    margin: 0px 5px 0px 5px;
   }
 
   .formcontainer p {
-  margin: 10px 0px;
-  padding: 8px 5px;
-  font-size: 14px;
+    margin: 10px 0px;
+    padding: 8px 5px;
+    font-size: 14px;
   }
 
   .mesvilles p {
   font-size: 1.3rem;
-}
+  }
 }
