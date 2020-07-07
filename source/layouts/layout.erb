@@ -3,21 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "JM BANZO Magnétiseur" %></title>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
-    <!-- <link rel="stylesheet" href="aos/aos.scss" /> -->
   </head>
   <body>
       <%= partial 'layouts/components/navbar' %>
       <%= yield %>
       <%= partial 'layouts/components/footer' %>
-    <!-- stellar on top of jquery -->
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
     <script>
       AOS.init({
         offset: 70,
@@ -25,6 +21,6 @@
         easing: 'ease-in-out',
         delay: 300,
       });
-  </script>
+    </script>
   </body>
 </html>
